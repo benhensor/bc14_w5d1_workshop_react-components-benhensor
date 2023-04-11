@@ -1,3 +1,6 @@
+// import title component
+import Title from "../Title";
+
 // import button component
 import Button from "../Button";
 
@@ -9,6 +12,7 @@ export default function Card(props) {
   return (
     // return the JSX that you want to render to the page (in this case, a div with a h3, p, img and button)
   <div className="Card">
+    <Title />
     <h3>{title}</h3>
     <p>{description}</p>
     <img alt="soc" width={"100%"} src={imgURL}/>

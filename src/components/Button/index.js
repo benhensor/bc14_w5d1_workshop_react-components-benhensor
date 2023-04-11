@@ -8,11 +8,11 @@ import "./Button.css";
 export default function Button(props) {
 
   // destructure the properties that are passed in to the component and assign them to variables
-  const { someText, onClick } = props;
+  const { buttonText, onClick } = props;
   return (
     // return the JSX that you want to render to the page (in this case, a button)
     <button className="Button" onClick={onClick}>
-      {someText}
+      {buttonText}
     </button>
   );
 }
